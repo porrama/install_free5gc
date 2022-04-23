@@ -1,4 +1,4 @@
-## Installing on Virtual Machine by Normal method
+## Installing on Virtual Machine by Simple method
 
 ---
 
