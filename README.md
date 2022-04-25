@@ -102,7 +102,7 @@ make webconsole
 Run **runnfv_free5gc.sh**
 ~~~
 cd ~/free5gc
-sudo sh ../install_open5gs/runnfv_free5gc.sh
+sudo sh ~/install_free5gc/runnfv_free5gc.sh
 ~~~ 
 
 
