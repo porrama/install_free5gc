@@ -83,9 +83,19 @@ sudo sh install_free5gc/install_nodejs.sh
 
 Install all Network functions
 ~~~
+go get -u github.com/sirupsen/logrus
+~~~
+~~~
+git clone -b v0.5.3 https://github.com/free5gc/gtp5g.git
+cd gtp5g
+make
+sudo make install
+~~~
+~~~
 cd ~/free5gc
 make
 ~~~
+
 
 WebConsole Install
 ~~~
