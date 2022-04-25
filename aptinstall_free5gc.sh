@@ -4,5 +4,4 @@ apt install -y net-tools
 apt install -y mongodb
 apt install -y wget
 apt install -y git gcc g++ cmake autoconf libtool pkg-config libmnl-dev libyaml-dev
-go get -u github.com/sirupsen/logrus
 apt update
