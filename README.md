@@ -112,7 +112,7 @@ cd ~/free5gc/webconsole
 <div id='id-reference'/>
 
 ## Reference
-- [Free5GC Documentation](https://github.com/free5gc/free5gc)
+- [Free5GC Documentation](https://github.com/free5gc/free5gc/wiki)
 - [s5uishida Project](https://github.com/s5uishida/free5gc_ueransim_sample_config)
 
 ---
