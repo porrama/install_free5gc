@@ -67,14 +67,18 @@ git clone --recursive -b v3.1.0 -j `nproc` https://github.com/free5gc/free5gc.gi
 
 Install Golang
 ~~~
-cd ~/install_free5gc
-sudo sh install_golang.sh
+cd ~
+sudo sh install_free5gc/install_golang_wget.sh
+~~~
+~~~
+cd ~
+sudo sh install_free5gc/install_golang_bashrc.sh
 ~~~
 
 Install Nodejs
 ~~~
-cd ~/install_free5gc
-sudo sh install_nodejs.sh
+cd ~
+sudo sh install_free5gc/install_nodejs.sh
 ~~~
 
 Install all Network functions
@@ -100,6 +104,7 @@ Run **runnfv_free5gc.sh**
 cd ~/free5gc
 sudo sh ~/install_open5gs/runnfv_free5gc.sh
 ~~~ 
+
 
 Run WebConsole server
 ~~~
