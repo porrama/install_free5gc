@@ -99,6 +99,10 @@ sudo make install
 cd ~/free5gc
 make
 ~~~
+~~~
+cd ~/free5gc
+make upf
+~~~
 
 
 WebConsole Install
