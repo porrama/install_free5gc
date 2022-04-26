@@ -71,8 +71,12 @@ cd ~
 sudo sh install_free5gc/install_golang_wget.sh
 ~~~
 ~~~
-cd ~
-sudo sh install_free5gc/install_golang_bashrc.sh
+mkdir -p ~/go/{bin,pkg,src}
+echo 'export GOPATH=$HOME/go' >> ~/.bashrc
+echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
+echo 'export PATH=$PATH:$GOPATH/bin:$GOROOT/bin' >> ~/.bashrc
+echo 'export GO111MODULE=auto' >> ~/.bashrc
+source ~/.bashrc
 ~~~
 
 Install Nodejs
