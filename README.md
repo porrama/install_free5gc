@@ -26,7 +26,7 @@
 ### Software Used
 | Software      | Version                 |
 | -----------   | -----------             |
-| VirsualBox    | VirtualBox 6.1          |
+| VirtualBox    | VirtualBox 6.1          |
 | Free5GC       | Updated Apr, 2022       |
 | Ubuntu Server | Ubuntu Server 20.04 LTS |
 
