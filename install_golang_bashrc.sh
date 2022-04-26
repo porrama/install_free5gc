@@ -1,3 +1,4 @@
+mkdir -p ~/go/{bin,pkg,src}
 # The following assume that your shell is bash
 echo 'export GOPATH=$HOME/go' >> ~/.bashrc
 echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
