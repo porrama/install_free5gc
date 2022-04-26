@@ -71,8 +71,8 @@ cd ~
 sudo sh install_free5gc/install_golang_wget.sh
 ~~~
 ~~~
-cd ~
-sudo sh install_free5gc/install_golang_bashrc.sh
+cd ~/free5gc
+sudo sh ~/install_free5gc/install_golang_bashrc.sh
 ~~~
 
 Install Nodejs
