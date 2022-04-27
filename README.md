@@ -111,6 +111,19 @@ cd ~/free5gc
 make webconsole
 ~~~
 
+GTP-U (UPF)
+~~~
+cd ~
+git clone https://github.com/free5gc/gtp5g.git
+~~~
+~~~
+cd ~/gtp5g
+make
+~~~
+~~~
+sudo make install
+~~~
+
 ---
 
 <div id='id-networkfunction'/>
