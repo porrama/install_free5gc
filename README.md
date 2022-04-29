@@ -90,12 +90,6 @@ Install all Network functions
 go get -u github.com/sirupsen/logrus
 ~~~
 ~~~
-git clone -b v0.5.3 https://github.com/free5gc/gtp5g.git
-cd gtp5g
-make
-sudo make install
-~~~
-~~~
 cd ~/free5gc
 make
 ~~~
@@ -114,7 +108,7 @@ make webconsole
 GTP-U (UPF)
 ~~~
 cd ~
-git clone https://github.com/free5gc/gtp5g.git
+git clone -b v0.5.3 https://github.com/free5gc/gtp5g.git
 ~~~
 ~~~
 cd ~/gtp5g
@@ -136,6 +130,11 @@ cd ~/free5gc
 ./run.sh
 ~~~ 
 
+Run User Plane Function (UPF)
+~~~
+cd ~/free5gc/NFs/upf/build
+sudo bin/free5gc-upfd
+~~~ 
 
 Run WebConsole server
 ~~~
