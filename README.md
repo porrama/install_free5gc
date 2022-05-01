@@ -59,7 +59,7 @@ sudo sh aptinstall_free5gc.sh
 
 ### 3. Install Free5GC software
 
-Clone Open5GS project
+Clone Free5gc project
 ~~~
 cd ~
 git clone --recursive -b v3.1.0 -j `nproc` https://github.com/free5gc/free5gc.git
